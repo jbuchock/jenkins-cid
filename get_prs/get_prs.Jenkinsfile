@@ -79,7 +79,7 @@ void sendEmailWithPRs( String message) {
             subject: subject,
             body: message,
             from: 'cid-support@intel.com',
-            to: 'cid-support@intel.com'
+            to: 'cid-support@intel.com; jakub.olgierd.buchocki@intel.com'
         )
     } catch (Exception e) {
         println 'FAILED to send an email.'
